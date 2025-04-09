@@ -1,0 +1,110 @@
+/* Register Page Container */
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Register Container */
+  .register-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1.title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Form Input Styling */
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Avatar Section Styling */
+  .avatar-preview-container {
+    margin-bottom: 10px;
+  }
+  
+  .avatar-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .file-input-label {
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .file-input-label:hover {
+    text-decoration: underline;
+  }
+  
+  /* Submit Button Styling */
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #d6e3f7;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .register-container {
+      margin: 50px 20px;
+      padding: 20px;
+    }
+  
+    h1.title {
+      font-size: 2rem;
+    }
+  }
+  
+  

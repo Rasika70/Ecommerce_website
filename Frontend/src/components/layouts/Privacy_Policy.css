@@ -1,0 +1,48 @@
+/* Style the container for the privacy policy */
+.privacy-policy-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  .privacy-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .privacy-header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style the content section */
+  .privacy-content {
+    padding: 1rem;
+  }
+  
+  .privacy-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .privacy-content p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .privacy-content ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the contact information */
+  .privacy-content strong {
+    font-weight: bold;
+  }
+  
+  /* You can add more styles here to customize the appearance further */

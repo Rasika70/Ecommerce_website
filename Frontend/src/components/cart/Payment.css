@@ -1,0 +1,33 @@
+/* .card-payment {
+    display: flex;
+    align-items: right;
+  }
+  
+  .qr-payment {
+    display: flex;
+    align-items: center;
+  } */
+
+  .cod p {    
+    align-content: center;
+  }
+
+  .payment-options-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto; /* Center horizontally */
+    max-width: 500px; /* Adjust the maximum width as needed */    
+  }
+  
+  .payment-options-container label {
+    margin-bottom: 10px;
+    text-align: start; /* Center the text within labels */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 8px;    
+  }
+  
+  

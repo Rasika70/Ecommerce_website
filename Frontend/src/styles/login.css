@@ -1,0 +1,92 @@
+/* You can add custom styles in your CSS file */
+/* Login Page Container */
+.login-container {
+  background-color: #f9f9f9;  /* Light background */
+  padding: 40px;  /* Padding around the form */
+  border-radius: 10px;  /* Rounded corners for the form */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+  margin-top: 100px;  /* Push the form down on the page */
+}
+
+/* Form Title */
+h1.title {
+  font-size: 36px;  /* Larger title size */
+  font-weight: 600;  /* Slightly bolder title */
+  color: #333;  /* Dark text color for better readability */
+}
+
+/* Input Fields */
+.form-group input {
+  background-color: #ffffff;  /* White background for inputs */
+  border: 1px solid #ccc;  /* Light border */
+  border-radius: 5px;  /* Rounded corners */
+  padding: 10px 15px;  /* Inner padding */
+  width: 100%;  /* Full width */
+  margin-bottom: 20px;  /* Space between inputs */
+  font-size: 16px;  /* Larger font size */
+}
+
+.form-group input:focus {
+  border-color: #007bff;  /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  /* Focus effect */
+}
+
+/* Login Button */
+button#login_button {
+  background-color: #007bff;  /* Blue background for the button */
+  border: none;  /* Remove default border */
+  border-radius: 5px;  /* Rounded corners */
+  color: white;  /* White text */
+  font-size: 16px;  /* Larger font size */
+  padding: 12px 0;  /* Padding for button */
+  width: 100%;  /* Full width button */
+  cursor: pointer;  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;  /* Smooth hover effect */
+}
+
+button#login_button:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
+}
+
+/* Forgot Password and Register Links */
+a {
+  color: #007bff;  /* Blue text color */
+  text-decoration: none;  /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline;  /* Underline on hover */
+}
+
+/* Container for Links */
+.d-flex {
+  margin-bottom: 20px;  /* Space between the links */
+}
+
+.d-flex .text-muted {
+  font-size: 14px;  /* Smaller font size for links */
+  color: #666;  /* Lighter text color */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 767px) {
+  .login-container {
+    padding: 20px;  /* Reduce padding on small screens */
+    margin-top: 50px;  /* Reduce top margin */
+  }
+
+  h1.title {
+    font-size: 28px;  /* Smaller title on small screens */
+  }
+
+  .form-group input {
+    font-size: 14px;  /* Smaller font size on small screens */
+    padding: 8px 12px;  /* Reduce padding for inputs */
+  }
+
+  button#login_button {
+    font-size: 14px;  /* Smaller button text */
+    padding: 10px 0;  /* Reduce button padding */
+  }
+}
+
